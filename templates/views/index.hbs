@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    {{>header}}
+    {{!-- <h1>From a dynamic file</h1> --}}
+    {{!-- <h6>{{title}}</h6> --}}
+    <p>{{message}}</p>
+    <p class="para"></p>
+
+    <form>
+      <input type='text' placeholder="location">
+      <button >Search</button>
+    </form>
+
+    <div class="render"></div>
+
+    {{>footer}}
+    
+  <script src="/js/app.js"></script>      
+  {{!-- //script runs after elements are available --}}
+</body>
+
+</html>

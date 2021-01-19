@@ -16,8 +16,8 @@ searchForm.addEventListener("submit", (e) => {
       if (data.error) {
         content.innerHTML = data.error;
       } else {
-        content.innerHTML = `<p>FORECAST = ${data.forecast}$</p>
-         <p>LOCATION = ${data.location}$`;
+        content.innerHTML = `<p>LOCATION = ${data.location}
+        <p>FORECAST = ${data.forecast}</p>`;
       }
     });
   });
